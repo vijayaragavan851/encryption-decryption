@@ -51,6 +51,8 @@
     .input{
         width:95%;
         height:100px;
+        text-indent:5px;        
+        color:red;
     }
 
     .code{
