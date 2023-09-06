@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encoding Decoding</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="bg-dark">
+      <div class="container-fluid">
+
+        <!-- Nav -->
+        <ul class="nav nav-tabs justify-content-center pt-5">
+            <li class="nav-item">
+              <a class="nav-link active px-3 d-inline-block a-link" data-bs-toggle="tab" href="#home" id="removeDecode" >Encryption</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 a-link" data-bs-toggle="tab" href="#menu"  id="removeEncode" >Decryption</a>
+            </li>
+        </ul>
+
+         <!-- Tab panes -->
+        <div class="tab-content container-fluid">
+
+            <!-- Encryption elements -->
+            <div class=" tab-pane active fade show container-fluid" id="home">
+                <p class="text-center mt-5 text-white h1">Encode</p>
+                <input type="text" id="Emessage" name="message" class="rounded-2 d-block  mt-3 mx-auto shadow-sm input border-4" placeholder="Enter Your Message...">
+                <div class="code bg-white mx-auto  mt-3 text-center  p-2" id="encode"></div>
+                <button type="button" class="btn btn-primary btn-lg shadow-sm d-block mx-auto mt-5" id="Ebtn">Convert</button>
+            </div>
+
+            <!-- Decryption Elements -->
+            <div class=" tab-pane fade container-fluid mt-5" id="menu">
+                <h1 class="text-center text-white">Decode</h1>
+                <input type="text" id="Dmessage" name="message" class="rounded-2 d-block mx-auto mt-3  shadow-sm input border-4" placeholder="Enter Your Message...">
+                <div class="code bg-white rounded-2  mx-auto mt-3 text-center p-2" id="decode"></div>
+                <button type="button" class="btn btn-primary btn-lg shadow-sm d-block mx-auto mt-5" id="Dbtn">Convert</button>
+            </div>
+
+        </div>
+    </div>
+   
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script  type="module" src="./script.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.input{
+    width:75%;
+    height:35px;
+    text-indent:10px;
+    font-weight:400;
+    font-size:2rem;
+    padding:2rem 1rem;
+    outline: none;
+}
+
+.code{
+    width:75%;
+    font-size:2rem;
+    color:gray;
+    overflow: auto;
+    display:none;
+}
+
+.a-link{
+    font-size:2rem;
+}
+
+.input:focus{
+    border-color:dodgerblue;
+}
+
+
+@media (max-width:1000px){
+
+    .input{
+        width:90%;
+        height:100px;
+        font-size:1.5rem;
+    }
+
+    .code{
+        width:90%;
+        font-size:1.5rem;
+    }
+
+    
+    .a-link{
+            font-size:1.5rem;
+        }
+
+}
